@@ -90,6 +90,7 @@ p {
 /* Logo & Nav Bar */
 
 #logo {
+    height: 100px;
     letter-spacing: 8px;
     border-bottom: white solid 4px;
     font-size: 270%;
@@ -122,7 +123,9 @@ p {
     border-bottom: ivory 2px solid;
 }
 
+/* Nav bar font color to be changed to similar ivory. */
 .navbarClass {
+    height: 30px;
     display: flex;
     justify-content: space-between;
     background-color: #10770C;
@@ -147,18 +150,36 @@ p {
 
 .subHeadingText {
     color: #919191;
+    background-color: pink;
 }
 
 .homeFooterContr {
-    height: 60vh;
     background-color: black;
     color: white;
 }
 
-.footerInfoContr {
+.footerInfoContr { 
+    background-color: none;
+    height: 307px;
+    width: 70%;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     align-items: center;
+    padding-right: 200px;
+
+    font-size: 100%;
+    list-style-type: none;
+    
+}
+
+/* trying to seperate the 3 coloumns in the footer by adding a class to the 3 column divs.  */
+
+.footer-column {
+    width: fit-content;
+    display: flex;
+    padding-right: 30%;
+    padding-left: 90px;
+    
 }
 
 /* Main Image for Home screen */
@@ -174,7 +195,7 @@ p {
 /* Section below main image ref; reasons to stay */
 
 #why-stay-section {
-    height: 500px;
+    height: 800px;
 }
 
 #why-stay-section h2 {
