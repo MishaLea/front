@@ -8,25 +8,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home and Accommodation</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- Header -->
-    <header> <!-- Header added for the logo/link back to home page. Covers Nav as well-->
+    <header>
+        <!-- Header added for the logo/link back to home page. Covers Nav as well-->
         <div>
             <a href="index.html">
-                <h1>Smiling Coast Apartments</h1>
+                <h1 id="logo">Smiling Coast Apartments</h1>
             </a>
             <nav class="navbarClass">
                 <div class="navbarLinks"> -->
-                    <ul>
+                    <ul id="menu">
                         <li>
-                            <a href="index.html">Home</a> <!--Also includes accommodation types below main image-->
+                        <a href="index.html" class="active">Home</a>
+                        <!--Also includes accommodation types below main image-->
                         </li>
                         <li>
-                            <a href="page2.html"> Register</a> <!--Also includes booking/availabilty options-->
+                        <a href="page2.html"> Register</a>
+                        <!--Also includes booking/availabilty options-->
                         </li>
                         <li>
                             <a href="logout.html"> Logout</a>
@@ -36,8 +39,8 @@
             </nav>
         </div>
     </header>
-    <section>
-        Main Image
+    <section> <!-- The image needs reducing but not sure how edit that -->
+        <div id="pool-image"></div>
     </section>
     <section>
         Brief Info and Accommodation types
@@ -57,26 +60,26 @@
     </section>
     <!-- Footer -->
     <footer>
-    <div class="homeFooterContr">
-        <div class="footerInfoContr">
-            <div>Branding</div>
-            <div>
-                <ul>
-                    <li>Privacy policy</li>
-                    <li>Careers</li>
-                    <li>About us</li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>instagram</li>
-                </ul>
+        <div class="homeFooterContr">
+            <div class="footerInfoContr">
+                <div>Branding</div>
+                <div>
+                    <ul>
+                        <li>Privacy policy</li>
+                        <li>Careers</li>
+                        <li>About us</li>
+                    </ul>
+                </div>
+                <div>
+                    <ul>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>instagram</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
 </body>
 
 </html>

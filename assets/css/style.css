@@ -6,6 +6,7 @@ body {
     background-color: #344a72;
     font-family: 'Josefin-Sans', 'sans-serif';
     font-style: italic;
+    color: ivory; 
 }
 
 .signup-box {
@@ -17,11 +18,14 @@ body {
 }
 
 h1 {
+    color: ivory;
+    text-transform: uppercase;
     text-align: center;
     padding-top: 15px;
 }
 
 h4 {
+    color: ivory;
     text-align: center;
 }
 
@@ -82,10 +86,46 @@ p {
 
 
 /* ####################### Home.html styles ######################### */
+
+/* Logo & Nav Bar */
+
+#logo {
+    letter-spacing: 8px;
+    border-bottom: white solid 4px;
+    font-size: 270%;
+    word-spacing: 20px;
+}
+
+#menu {
+    font-size: 150%;
+}
+
+#menu li {
+    list-style-type: none;
+    float: left;
+    margin-left: 300px;
+    padding-left: 30px; 
+    text-align: center;
+}
+
+#menu a {
+    text-decoration: none;
+}
+
+#menu a:hover {
+    border-bottom: black 2px solid;
+    border-top: black 2px solid;
+}
+
+.active {
+    color: ivory;
+    border-bottom: ivory 2px solid;
+}
+
 .navbarClass {
     display: flex;
     justify-content: space-between;
-    background-color: rgb(0, 242, 255);
+    background-color: #6CC644;
     padding: 10px 30px;
 }
 
@@ -119,4 +159,12 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+/* Main Image for Home screen */
+
+#pool-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/pool.jpg') no-repeat center; /* I can't make fit the image correctly. Should i use another image or is there a way to reduce size? */
 }
