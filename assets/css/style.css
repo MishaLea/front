@@ -1,6 +1,11 @@
+/* Included an import link for font from google */
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+
+/* Changed font to one style (Josefin Sans - Italic) with sans-serfi as back up. */
 body {
     background-color: #344a72;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Josefin-Sans', 'sans-serif';
+    font-style: italic;
 }
 
 .signup-box {
