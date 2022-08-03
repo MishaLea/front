@@ -166,14 +166,15 @@ p {
 #pool-image {
     height: 500px;
     width: 100%;
-    background: url('../images/pool.jpg') no-repeat center; /* I can't make fit the image correctly. Should i use another image or is there a way to reduce size? */
+    background: url('../images/pool.jpg') no-repeat center; 
+    /* I can't fit the image correctly. Should i use another image or is there a way to reduce size? 
+    ** I've now changed the picture to a free one online from 'Free images' this is now too small but way better quality. */
 }
 
 /* Section below main image ref; reasons to stay */
 
 #why-stay-section {
     height: 500px;
-    background-color: #919191;
 }
 
 #why-stay-section h2 {
@@ -182,7 +183,7 @@ p {
 
     padding-top: 30px;
     padding-bottom: 20px;
-    border-bottom: ivory solid 3px;
+    border-bottom: rgb(240, 255, 241) solid 5px;
 }
 
 #why-stay-section h5 {
@@ -192,3 +193,37 @@ p {
     padding-left: 200px;
     padding-right:200px;
 }
+
+/* Accommodation Pictures */
+
+/* 3 image containers at 33.33% each */
+.column {
+    float: left;
+    width: 30%;
+    padding: 5px;
+}
+/* clear floats after image containers */
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+#bedroom-img {
+    height: 200px;
+    width: 100%;
+    background: url('../images/bedroom.jpg');
+}
+
+#kitchen-img {
+    height: 200px;
+    width: 100%;
+    background: url('../images/kitchen.jpg');
+}
+#lounge-img {
+    height: 200px;
+    width: 100%;
+    background: url('../images/lounge.jpg');
+}
+
