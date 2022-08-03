@@ -125,7 +125,7 @@ p {
 .navbarClass {
     display: flex;
     justify-content: space-between;
-    background-color: #6CC644;
+    background-color: #10770C;
     padding: 10px 30px;
 }
 
@@ -211,18 +211,18 @@ p {
 }
 
 #bedroom-img {
-    height: 200px;
+    height: 350px;
     width: 100%;
     background: url('../images/bedroom.jpg');
 }
 
 #kitchen-img {
-    height: 200px;
+    height: 350px;
     width: 100%;
     background: url('../images/kitchen.jpg');
 }
 #lounge-img {
-    height: 200px;
+    height: 350px;
     width: 100%;
     background: url('../images/lounge.jpg');
 }
