@@ -74,6 +74,7 @@ p {
     width: 360px;
     height: 620px;
     margin: auto;
+    color: black;
     background-color: white;
     border-radius: 3px;
 }
@@ -83,7 +84,8 @@ p {
     height: 280px;
     margin: auto;
     border-radius: 3px;
-    background-color: pink;
+    color: black;
+    background-color: whitesmoke;
 }
 
 
