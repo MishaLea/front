@@ -251,13 +251,20 @@ p {
 /* Register & Bookings page */
 
 .page-2-middle-section {
-
+    height: 400px;
+    width: 100%;
+    background-color: red;
+    margin-top: 30px;
 }
 
 .page-2-lower-section {
-
+    height: 400px;
+    width: 100%;
+    background-color: turquoise;
 }
 
 .footer-page-2 {
-    
+    height: 100px;
+    width: 100%;
+    background-color: pink;
 }
