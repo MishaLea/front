@@ -263,7 +263,7 @@ p {
     background: url('../images/lounge.jpg');
 }
 
-/* Register & Bookings page */
+/* Bookings page */
 
 .page-2-middle-section {
     height: 400px;
@@ -282,4 +282,23 @@ p {
     height: 100px;
     width: 100%;
     background-color: pink;
+}
+
+
+/* Sign Up page */
+
+.s-m-links {
+    text-align: center;
+    list-style-type: none;
+}
+
+.s-m-links > li {
+    display: inline;
+}
+
+.s-m-links i {
+    font-size: 160%;
+    color: ivory;
+    padding: 5%;
+    margin: 1%;
 }
