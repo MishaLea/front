@@ -268,7 +268,7 @@ p {
 .page-2-middle-section {
     height: 400px;
     width: 100%;
-    background-color: red;
+    background-color: gray;
     margin-top: 30px;
 }
 
@@ -278,14 +278,19 @@ p {
     background-color: turquoise;
 }
 
+/* Will delete .footer-page-2 and use class s-m-links to format footer on bookings page */
+
 .footer-page-2 {
-    height: 100px;
-    width: 100%;
-    background-color: pink;
+    height: 300px;
+    border-top: white 2px solid;
 }
 
 
 /* Sign Up page */
+
+.signup-section { /* This worked to increase space between footer border and sign up section */
+    margin-bottom: 200px;
+}
 
 .s-m-links {
     text-align: center;
@@ -301,4 +306,20 @@ p {
     color: ivory;
     padding: 5%;
     margin: 1%;
+}
+
+.policy-links {
+    text-align: center;
+    list-style-type: none;
+}
+
+.policy-links > li {
+    display: inline;
+}
+
+.policy-ul-links {
+    font-size: 120%;
+    color: ivory;
+    padding: 10%;
+    margin: 10px;
 }
