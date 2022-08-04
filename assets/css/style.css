@@ -128,20 +128,20 @@ p {
     border-bottom: ivory 2px solid;
 }
 
-.nav-text {
-    /* Can't change the color of the font to ivory. I added in a class on each
-    li and added in the css as you can see but the color isn't loading. */
-    color: ivory;
+/* Nav bar font color to be changed to similar ivory. */
+
+.navbar-div {
+    height: 200px;
+    border-bottom: white 2px solid;
 }
 
-/* Nav bar font color to be changed to similar ivory. */
 .navbarClass {
     height: 30px;
+    width: 100%;
     display: flex;
-    color: ivory;
     justify-content: space-between;
     /*  background-color: #10770C; */
-    padding: 10px 30px;
+    /*     padding: 10px 30px;*/    
     border-bottom: 100px;
 }
 
@@ -150,8 +150,12 @@ p {
     align-items: center;
 }
 
-.navbarLinks>div {
-    margin: 0 6px;
+.navbarLinks > div {
+    color: ivory;
+}
+
+.navbarLinks a{
+    color: ivory;
 }
 
 
@@ -214,6 +218,7 @@ p {
 #why-stay-section h2 {
     font-size: 200%;
     text-align: center;
+    text-transform: uppercase;
 
     padding-top: 30px;
     padding-bottom: 20px;
