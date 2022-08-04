@@ -1,56 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <link rel="stylesheet" href="assets/css/style.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Booking and Sign Up</title>
+    <title>Home and Accommodation</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Teko&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
 </head>
 
 <body>
     <!-- Header -->
-    <div>
-        <nav class="navbarClass">
-            <a href="">Smiling Coast Apartments</a>
-            <div class="navbarLinks">
-                <div>Home</div>
-                <div>Register</div>
-                <div>LogOut</div>
-            </div> 
-    </div>
-
-    <!-- home body thingy -->
-    <div class="homeBodyInfoContr">
-        <h5>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eum mollitia quae reprehenderit veritatis minima hic! Porro id maiores itaque asperiores a! Quo accusantium perferendis dolores qui sunt, dolore iure quam.</h5>
-        <span>
-            <p class="subHeadingText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Quo, vero possimus fuga doloremque aliquid rem molestiae tenetur iusto repellat ad impedit ipsa vel ullam, quos at nesciunt voluptate, quaerat temporibus.</p>
-            <p class="subHeadingText">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam obcaecati, architecto vero odio atque maiores accusamus aperiam qui saepe ratione delectus minus ad dolore accusantium a? Iste dicta rem provident.</p>
-        </span>
-    </div>
-
-    <!-- Footer -->
-    <div class="homeFooterContr">
-        <div class="footerInfoContr">
-            <div>Branding</div>
-            <div>
-                <ul>
-                    <li>Privacy policy</li>
-                    <li>Careers</li>
-                    <li>About us</li>
-                </ul>
-            </div>
-            <div>
-                <ul>
-                    <li>Facebook</li>
-                    <li>Twitter</li>
-                    <li>instagram</li>
-                </ul>
-            </div>
+    <header>
+        <!-- Header added for the logo/link back to home page. Covers Nav as well-->
+        <div>
+            <a href="index.html">
+                <h1 id="logo">Smiling Coast Apartments</h1>
+            </a>
+            <nav class="navbarClass">
+                <div class="navbarLinks"> <!--I am trying to make the links in Nav central. I added text-align: senter but it's just off center. -->
+                    <ul id="menu">
+                        <li>
+                            <a href="index.html">Home</a>
+                            <!--Also includes accommodation types below main image-->
+                        </li>
+                        <li>
+                            <a href="page2.html" class="active"> Register & Bookings</a>
+                            <!--Also includes booking/availabilty options-->
+                        </li>
+                        <li>
+                            <a href="logout.html"> Logout</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
         </div>
-    </div>
+    </header>
+    <section class="page-2-middle-section">
+        Testing 1
+    </section>
+    <section class="page-2-lower-section">
+        Testing 2
+    </section>
+    <!-- Footer -->
+    <footer class= "footer-page-2"> <!-- I can't navigate the home page footer well so im trying another style on this page. -->
+            Footer
+    </footer>
+    <script src="https://kit.fontawesome.com/c44ac9f8c2.js" crossorigin="anonymous"></script>
 </body>
+
 </html>
