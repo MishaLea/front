@@ -21,6 +21,10 @@ h4 {
     text-align: center;
 }
 
+a {
+    text-decoration: none;
+} 
+
 
 /* Sign up/ Log out page */
 
@@ -116,6 +120,10 @@ p {
     border-bottom: white solid 4px;
     font-size: 270%;
     word-spacing: 20px;
+}
+
+.Navbar-logo {
+    text-decoration: none !important;
 }
 
 #menu {
@@ -219,6 +227,10 @@ p {
 
 /* Main Image for Home screen */
 
+.top-row {
+    height: 500px;
+}
+
 .pool-image {
     height: 500px;
     width: 100%;
@@ -238,6 +250,7 @@ p {
     float: left;
     width: 45%;
     padding: 5px;
+    margin-left: 2.5%;
 }
 
 /* clear floats after image containers */
@@ -325,7 +338,8 @@ p {
 #beach-img {
     height: 500px;
     width: 100%;
-    background: url('../images/beach.jpg') no-repeat center;
+    background: url('../images/beach2.webp')no-repeat center;
+    object-fit: cover;
 }
 
 #bookings-h2 {
