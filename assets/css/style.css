@@ -402,6 +402,16 @@ p {
 }
 
 
+
+/* Submit */
+
+#submit {
+    width: 80%;
+    margin: 24px 24px;
+    text-align: center;
+}
+
+
 /* Will delete .footer-page-2 and use class s-m-links to format footer on bookings page */
 
 /* .footer-page-2 {
