@@ -24,7 +24,7 @@ h4 {
 
 /* Sign up/ Log out page */
 
-form {
+form { /* make sure not to istake with the sign up/login form */
     width: 300px;
     margin-left: 20px;
 }
@@ -354,6 +354,16 @@ p {
     background-image: url('../images/background.jpeg');
     height: 100%;
     width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.booking-form {
+    width: 50%;
+    height: 400px;
+    background-color: orange;
 }
 
 
