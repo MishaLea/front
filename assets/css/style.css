@@ -340,6 +340,7 @@ p {
     margin-right: 200px;
     font-size: 130%;
     margin-bottom: 50px;
+    background-color: rgba f8b944.7; /* not sure how to add rgba for slight transparent look */
 
 }
 
@@ -347,6 +348,12 @@ p {
     height: 400px;
     width: 100%;
     background-color: orange;
+}
+
+.bookings-bg {
+    background-image: url('../images/background.jpeg');
+    height: 100%;
+    width: 100%;
 }
 
 /* Will delete .footer-page-2 and use class s-m-links to format footer on bookings page */
