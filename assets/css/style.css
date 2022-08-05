@@ -131,7 +131,7 @@ p {
 /* Nav bar font color to be changed to similar ivory. */
 
 .navbar-div {
-    height: 200px;
+    height: 230px;
     border-bottom: white 2px solid;
 }
 
@@ -201,12 +201,34 @@ p {
 
 /* Main Image for Home screen */
 
-#pool-image {
+.pool-image {
     height: 500px;
     width: 100%;
     background: url('../images/pool.jpg') no-repeat center;
     /* I can't fit the image correctly. Should i use another image or is there a way to reduce size? 
     ** I've now changed the picture to a free one online from 'Free images' this is now too small but way better quality. */
+}
+
+.pool-2-image {
+    height: 500px;
+    width: 100%;
+    background: url('../images/pool2.webp') no-repeat center;
+}
+
+/* 2 image containers at 45% each */
+.top-column {
+    float: left;
+    width: 45%;
+    padding: 5px;
+}
+
+/* clear floats after image containers */
+
+.top-row::after {
+    content: "";
+    clear: both;
+    display: table;
+    /* margin-top: 300px; */
 }
 
 /* Section below main image ref; reasons to stay */
@@ -270,11 +292,17 @@ p {
 
 /* Bookings page */
 
-.page-2-middle-section {
-    height: 400px;
+.bookings-section {
+    height: 600px;
     width: 100%;
-    background-color: gray;
-    margin-top: 30px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+#beach-img {
+    height: 500px;
+    width: 100%;
+    background: url('../images/beach.jpg') no-repeat center;
 }
 
 .page-2-lower-section {
@@ -285,10 +313,10 @@ p {
 
 /* Will delete .footer-page-2 and use class s-m-links to format footer on bookings page */
 
-.footer-page-2 {
+/* .footer-page-2 {
     height: 300px;
     border-top: white 2px solid;
-}
+} */
 
 
 /* Sign Up page */
@@ -300,6 +328,7 @@ p {
 .s-m-links {
     text-align: center;
     list-style-type: none;
+    height: 100px;
 }
 
 .s-m-links > li {
@@ -307,13 +336,15 @@ p {
 }
 
 .s-m-links i {
-    font-size: 160%;
+    font-size: 200%;
     color: ivory;
-    padding: 5%;
+    /* padding: 5%; */
+    padding-left: 7%;
+    padding-right: 7%;
     margin: 1%;
 }
 
-.policy-links {
+/* .policy-links {
     text-align: center;
     list-style-type: none;
 }
@@ -327,4 +358,4 @@ p {
     color: ivory;
     padding: 10%;
     margin: 10px;
-}
+} */
