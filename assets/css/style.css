@@ -338,6 +338,20 @@ p {
 
 .signup-section { /* This worked to increase space between footer border and sign up section */
     margin-bottom: 200px;
+    padding-bottom: 20px; 
+}
+
+.signup-section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    border-bottom: black 2px solid;
+    margin-top: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.signup-box p {
+    
 }
 
 .s-m-links {
