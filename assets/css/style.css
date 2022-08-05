@@ -366,6 +366,15 @@ p {
     background-color: orange;
 }
 
+.booking-form-text {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.booking-main-form div {
+    display: inline-block;
+}
+
 
 /* Will delete .footer-page-2 and use class s-m-links to format footer on bookings page */
 
