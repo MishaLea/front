@@ -293,7 +293,7 @@ p {
 /* Bookings page */
 
 .bookings-section {
-    height: 600px;
+    height: 700px;
     width: 100%;
     margin-top: 100px;
     margin-bottom: 100px;
@@ -305,10 +305,25 @@ p {
     background: url('../images/beach.jpg') no-repeat center;
 }
 
+#bookings-h2 {
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 200%;
+}
+
+#bookings-h5 {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+    font-size: 130%;
+    margin-bottom: 50px;
+
+}
+
 .page-2-lower-section {
     height: 400px;
     width: 100%;
-    background-color: turquoise;
+    background-color: orange;
 }
 
 /* Will delete .footer-page-2 and use class s-m-links to format footer on bookings page */
