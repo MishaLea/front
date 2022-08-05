@@ -61,7 +61,7 @@ p {
 
 .para-2 {
     text-align: center;
-    color: #344a72;
+    color: orange;
     font-size: 15px;
     margin-top: -5px;
 }
@@ -79,13 +79,30 @@ p {
     border-radius: 3px;
 }
 
+.signup-box label {
+    color: white;
+}
+
 .login-box {
     width: 360px;
     height: 280px;
     margin: auto;
     border-radius: 3px;
     color: black;
-    background-color: whitesmoke;
+    background-color: orange;
+}
+
+.login-box h3 {
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    border-bottom: white 2px solid;
+}
+
+.login-box label {
+    color: white;
 }
 
 
@@ -273,6 +290,11 @@ p {
     display: table;
 }
 
+.row {
+    padding-left: 3%;
+    margin-left: 2%;
+}
+
 #bedroom-img {
     height: 350px;
     width: 100%;
@@ -296,7 +318,7 @@ p {
 .bookings-section {
     height: 700px;
     width: 100%;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 100px;
 }
 
@@ -345,13 +367,15 @@ p {
 .signup-section h2 {
     text-align: center;
     text-transform: uppercase;
-    border-bottom: black 2px solid;
+    border-bottom: white 2px solid;
     margin-top: 25px;
     padding-top: 25px;
     padding-bottom: 25px;
+    color: white;
 }
 
-.signup-box p {
+.signup-box {
+    background-color: orange;
     
 }
 
@@ -359,6 +383,8 @@ p {
     text-align: center;
     list-style-type: none;
     height: 100px;
+    border-top: white 2px solid;
+    padding-top: 5%;
 }
 
 .s-m-links > li {
