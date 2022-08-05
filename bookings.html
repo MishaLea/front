@@ -68,27 +68,35 @@
                     <form action="index.php" method="get">
                         <div>
                             <span>What is your name?</span>
-                            <input type="text" name="name" id="name">
+                            <input type="text" name="name" id="name" placeholder="Write your name here" required>
                         </div>
                         <div>
                             <span>What is your email?</span>
-                            <input type="email" name="name" id="name">
+                            <input type="email" name="email" id="email" placeholder="Write your email here" required>
                         </div>
                         <div>
-                            <span>How many people?</span> <!-- This is the select option -->
-                            <input type="text" name="name" id="name">
+                            <!-- This is the select option -->
+                            <span>How many people?</span> 
+                            <select name="people" id="people" required>
+                                <option value="" >---People---</option>
+                                <option value="1">1</option>
+                                <option value="2">2</option>
+                                <option value="3">3</option>
+                                <option value="4">4</option>
+                                <option value="5">5</option>
+                            </select>
                         </div>
                         <div>
                             <span>Approx Arrival Time?</span>
-                            <input type="text" name="name" id="name">
+                            <input type="time" name="time" id="time" placeholder="Approx. Arrival Time">
                         </div>
                         <div>
                             <span>What is the Date?</span>
-                            <input type="text" name="name" id="name">
+                            <input type="date" name="date" id="date" placeholder="Enter Dates" required>
                         </div>
                         <div>
                             <span>Your Tel. Number?</span>
-                            <input type="text" name="name" id="name">
+                            <input type="number" name="number" id="number" placeholder="Write number here" required>
                         </div>
                         <div id="submit">
                             <input type="submit" value="SUBMIT" name="name" id="submit">

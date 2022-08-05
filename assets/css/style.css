@@ -1,5 +1,6 @@
 /* Included an import link for font from google */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
 
 /* Changed font to one style (Josefin Sans - Italic) with sans-serfi as back up. */
 body {
@@ -375,7 +376,7 @@ p {
 .booking-form {
     width: 700px;
     height: 700px;
-    background-color: orange;
+    /* background-color: orange; */
 }
 
 .booking-form-text {
@@ -387,7 +388,7 @@ p {
 .booking-main-form {
     width: 700px;
     display: flex;
-    background-color: #e5415e;
+    /* background-color: #e5415e; */
     flex-direction: row-reverse;
     flex-wrap: wrap;
     align-items: baseline;
@@ -399,6 +400,9 @@ p {
 .booking-main-form input {
     width: 100%;
     display: block;
+    font-family: 'Akaya Telivigala', cursive;
+    background: none;
+    border: 1px solid yellow;
 }
 
 
@@ -409,6 +413,11 @@ p {
     width: 80%;
     margin: 24px 24px;
     text-align: center;
+}
+
+#submit input {
+    font-family: 'Akaya Telivigala', cursive;
+    width: 200px;
 }
 
 
