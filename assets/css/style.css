@@ -148,6 +148,7 @@ p {
 .navbarLinks {
     display: flex;
     align-items: center;
+    margin-left: -100px;
 }
 
 .navbarLinks > div {
