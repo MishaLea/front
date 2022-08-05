@@ -1,6 +1,6 @@
 /* Included an import link for font from google */
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&family=Mouse+Memoirs&display=swap');
 
 /* Changed font to one style (Josefin Sans - Italic) with sans-serfi as back up. */
 body {
@@ -370,6 +370,8 @@ p {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-left: 50px;
+    margin-left: 100px;
 
 }
 
@@ -382,7 +384,14 @@ p {
 .booking-form-text {
     text-align: center;
     margin: 40px 0;
-    background-color: purple;
+    /* background-color: purple; */
+}
+
+.booking-form-text p {
+    color: white;
+    font-family: 'Mouse Memoirs', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
 }
 
 .booking-main-form {
@@ -400,25 +409,25 @@ p {
 .booking-main-form input {
     width: 100%;
     display: block;
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Mouse Memoirs', sans-serif;
     background: none;
     border: 1px solid rgb(248, 23, 80);
-    color: yellow;
+    color: white;
     outline: none;
 }
 
 .booking-main-form div select {
     width: 100%;
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Mouse Memoirs', sans-serif;
     background: none;
     border: 1px rgb(248, 23, 80);
     font-size: 20px;
-    color: ivory; 
+    color: white; 
 }
 
 .booking-main-form div span {
     width: 100%;
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Mouse Memoirs', sans-serif;
     color: white; 
     font-size: 25px;
 }
@@ -432,7 +441,7 @@ p {
 }
 
 #submit input {
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Mouse Memoirs', sans-serif;
     width: 200px;
     background-color: rgb(248, 23, 80) !important;
     color: white !important;
@@ -440,7 +449,7 @@ p {
 }
 
 #submit input:hover {
-    font-family: 'Akaya Telivigala', cursive;
+    font-family: 'Mouse Memoirs', sans-serif;
     width: 200px;
     background-color: orange !important;
     color: white !important;
@@ -450,6 +459,12 @@ p {
     font-size: 19px;
     background-color: rgb(0, 38, 255) !important;
     color: white !important;
+}
+
+@media screen and (max-width:716px) {
+    .booking-main-form {
+        text-align: center;
+    }
 }
 
 
@@ -505,18 +520,3 @@ p {
     margin: 1%;
 }
 
-/* .policy-links {
-    text-align: center;
-    list-style-type: none;
-}
-
-.policy-links > li {
-    display: inline;
-}
-
-.policy-ul-links {
-    font-size: 120%;
-    color: ivory;
-    padding: 10%;
-    margin: 10px;
-} */
