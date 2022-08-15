@@ -422,13 +422,13 @@ p {
     background: none;
     border: 1px rgb(248, 23, 80);
     font-size: 20px;
-    color: white; 
+    color: white;
 }
 
 .booking-main-form div span {
     width: 100%;
     font-family: 'Mouse Memoirs', sans-serif;
-    color: white; 
+    color: white;
     font-size: 25px;
 }
 
@@ -461,11 +461,11 @@ p {
     color: white !important;
 }
 
-@media screen and (max-width:716px) {
+/* @media screen and (max-width:716px) {
     .booking-main-form {
         text-align: center;
     }
-}
+} */
 
 
 /* Will delete .footer-page-2 and use class s-m-links to format footer on bookings page */
@@ -520,3 +520,76 @@ p {
     margin: 1%;
 }
 
+@media screen and (max-width: 375px) {
+    header {
+        background-color: #49c1a2;
+        height: 90px;
+    }
+    #logo {
+        height: 90px;
+        border-bottom: none;
+        font-size: 50%;
+        word-spacing: 2px;
+        margin: 0;
+        padding: 0;
+        
+    }
+
+    #menu {
+        min-height: 70px;
+        font-size: 60%;
+        margin: 0;
+        padding: 0;
+        background-color: green;
+    }
+
+    #menu li {
+        
+        background-color: orange;
+        width: 200%;
+        margin-left: 0%;
+        margin-right: 0%;
+    /* need to get the text on one line */
+    }
+
+    .navbar-div {
+        background-color: purple;
+        height: 90px;
+    }
+
+    .hamburger {
+        display: block;
+        /* cursor: pointer; */
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .top-column {
+        display: none;
+    }
+
+    .top-row {
+        height: 30px;
+    }
+
+    #why-stay-section h2 {
+        font-size: 20px;
+        height: 30px;
+        margin-top: 1px;
+    }
+
+    #why-stay-section h5 {
+        margin-left: 0%;
+        margin-right: 0%;
+        padding-left: 1px;
+        font-size: 10px;
+        width: 100%;
+    }
+}
