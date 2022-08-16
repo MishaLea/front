@@ -620,4 +620,53 @@ p {
         margin-right: 44px;
     }
 
+    /* bookings page at 375px max width */
+
+    #beach-img {
+        height: 332px;
+    }
+
+    #bookings-h2 {
+        font-size: 21px;
+    }
+
+    #bookings-h5 {
+        font-size: 11px;
+        width: 80%;
+        margin-left: 30px;
+        padding-right: 3px;
+    }
+
+    .bookings-section {
+        height: 432px;
+    }
+
+    .bookings-section-2 {
+        height: 265px;
+        width: inherit;
+        display: revert;
+        margin-left: -169px;
+        margin-bottom: 3px;
+    }
+
+    .footer-page-2 {
+        height: 100px;
+        background-color: #344a72;
+        width: 100%;
+        margin-left: -9px;
+        padding-right: 10px;
+    }
+
+    .bookings-bg {
+        height: 572px;
+        width: 71%;
+        margin-left: 110px;
+    }
+    .booking-form {
+        height: 690px;
+    }
+
+    .booking-form-text {
+        padding-top: 1PX;
+    }
 }
