@@ -69,7 +69,7 @@ p {
     text-align: center;
     color: orange;
     font-size: 15px;
-    margin-top: -5px;
+    margin-top: 4px;
 }
 
 .para-2 a {
@@ -80,6 +80,7 @@ p {
     width: 360px;
     height: 620px;
     margin: auto;
+    padding-bottom: 7px;
     color: black;
     background-color: white;
     border-radius: 3px;
@@ -88,6 +89,10 @@ p {
 .signup-box label {
     color: white;
 }
+
+/* .signup-box p {
+    padding-bottom: 1px;
+} */
 
 .login-box {
     width: 360px;
@@ -230,11 +235,11 @@ p {
 /* Main Image for Home screen */
 
 .top-row {
-    height: 500px;
+    height: 397px;
 }
 
 .pool-image {
-    height: 500px;
+    height: 408px;
     width: 100%;
     background: url('../images/pool.jpg') no-repeat center;
     /* I can't fit the image correctly. Should i use another image or is there a way to reduce size? 
@@ -242,7 +247,7 @@ p {
 }
 
 .pool-2-image {
-    height: 500px;
+    height: 408px;
     width: 100%;
     background: url('../images/pool2.webp') no-repeat center;
 }
@@ -519,166 +524,6 @@ p {
     margin: 1%;
 }
 
-@media screen and (max-width: 375px) {
-    header {
-        height: 90px;
-        margin-top: 20px;
-    }
-
-    #logo {
-        height: 48px;
-        border-bottom: none;
-        font-size: 50%;
-        word-spacing: 2px;
-        margin-top: 5px;
-        padding: 0;
-
-    }
-
-    #menu {
-        min-height: 70px;
-        font-size: 60%;
-        margin: 0;
-        padding: 0;
-    }
-
-    #menu li {
-        width: 200%;
-        margin-left: 0%;
-        margin-right: 0%;
-    }
-
-    .navbar-div {
-        height: 90px;
-    }
-
-    .bar {
-        display: block;
-        width: 25px;
-        height: 3px;
-        margin: 5px auto;
-        -webkit-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-    }
-
-    .top-column {
-        width: 80%;
-        margin-right: 35px;
-        padding-top: 46px;
-    }
-
-    .pool-image {
-        width: 114%;
-        height: 390px;
-    }
-
-    .pool-2-image {
-        display: none;
-    }
-
-    .top-row {
-        height: 30px;
-    }
-
-    .homeBodyInfoContr {
-        height: 200%;
-        margin-bottom: 5px;
-        position: absolute;
-
-    }
-
-    #why-stay-section {
-        height: 242px;
-    }
-
-    #why-stay-section h2 {
-        font-size: 25px;
-        height: 360px;
-        border-bottom: #344a72;
-    }
-
-    #why-stay-section h5 {
-        margin-left: -1%;
-        margin-right: 1%;
-        margin-top: 20%;
-        padding-left: 1px;
-        font-size: 7px;
-        width: 100%;
-        line-height: 13px;
-    }
-
-    .column {
-        height: 350px;
-        position: fixed;
-        width: 50%;
-        display: none;
-    }
-
-    .s-m-links {
-        margin-top: 315px;
-        border-color: #344a72;
-        margin-right: 44px;
-    }
-
-    /* bookings page at 375px max width */
-
-    #beach-img {
-        height: 332px;
-    }
-
-    #bookings-h2 {
-        font-size: 21px;
-    }
-
-    #bookings-h5 {
-        font-size: 11px;
-        width: 80%;
-        margin-left: 30px;
-        padding-right: 3px;
-    }
-
-    .bookings-section {
-        height: 432px;
-    }
-
-    .bookings-section-2 {
-        height: 265px;
-        width: inherit;
-        display: revert;
-        margin-left: -169px;
-        margin-bottom: 3px;
-    }
-
-    .footer-page-2 {
-        height: 100px;
-        background-color: #344a72;
-        width: 100%;
-        margin-left: -9px;
-        padding-right: 10px;
-    }
-
-    .bookings-bg {
-        height: 572px;
-        width: 71%;
-        margin-left: 110px;
-    }
-
-    .booking-form {
-        height: 690px;
-    }
-
-    .booking-form-text {
-        padding-top: 1PX;
-    }
-
-    /* Sign up Form */
-
-    .signup-section {
-        height: 337px;
-        margin-top: -99px;
-    }
-}
-
 @media screen and (max-width: 730px) {
     #logo {
         font-size: 164%;
@@ -774,3 +619,167 @@ p {
         height: 473px;
     }
 }
+
+/* @media screen and (max-width: 375px) { */
+    
+    
+    /* header {
+        height: 90px;
+        margin-top: 20px;
+    } */
+
+   /*  #logo {
+        height: 48px;
+        border-bottom: none;
+        font-size: 168%;
+        word-spacing: 2px;
+        margin-top: 5px;
+        padding: 0;
+
+    } */
+
+ /*    #menu {
+        min-height: 70px;
+        font-size: 60%;
+        margin: 0;
+        padding: 0;
+    }
+
+    #menu li {
+        width: 200%;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .navbar-div {
+        font-size: 6px;
+        padding-right: -3px;
+        height: 32px;
+    }
+
+    .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        -webkit-transition: all 0.3s ease-in-out;
+        transition: all 0.3s ease-in-out;
+    }
+
+    .top-column {
+        width: 80%;
+        margin-right: 35px;
+        padding-top: 46px;
+    }
+
+    .pool-image {
+        width: 114%;
+        height: 390px;
+    }
+
+    .pool-2-image {
+        display: none;
+    }
+
+    .top-row {
+        height: 30px;
+    }
+
+    .homeBodyInfoContr {
+        height: 200%;
+        margin-bottom: 5px;
+        position: absolute;
+
+    }
+
+    #why-stay-section {
+        height: 242px;
+    }
+
+    #why-stay-section h2 {
+        font-size: 25px;
+        height: 360px;
+        border-bottom: #344a72;
+    }
+
+    #why-stay-section h5 {
+        margin-left: -1%;
+        margin-right: 1%;
+        margin-top: 20%;
+        padding-left: 1px;
+        font-size: 7px;
+        width: 100%;
+        line-height: 13px;
+    }
+
+    .column {
+        height: 350px;
+        position: fixed;
+        width: 50%;
+        display: none;
+    }
+
+    .s-m-links {
+        margin-top: 315px;
+        border-color: #344a72;
+        margin-right: 44px;
+    }
+
+    bookings page at 375px max width
+
+    #beach-img {
+        height: 332px;
+    }
+
+    #bookings-h2 {
+        font-size: 21px;
+    }
+
+    #bookings-h5 {
+        font-size: 11px;
+        width: 80%;
+        margin-left: 30px;
+        padding-right: 3px;
+    }
+
+    .bookings-section {
+        height: 432px;
+    }
+
+    .bookings-section-2 {
+        height: 265px;
+        width: inherit;
+        display: revert;
+        margin-left: -169px;
+        margin-bottom: 3px;
+    }
+
+    .footer-page-2 {
+        height: 100px;
+        background-color: #344a72;
+        width: 100%;
+        margin-left: -9px;
+        padding-right: 10px;
+    }
+
+    .bookings-bg {
+        height: 572px;
+        width: 71%;
+        margin-left: 110px;
+    }
+
+    .booking-form {
+        height: 690px;
+    }
+
+    .booking-form-text {
+        padding-top: 1PX;
+    }
+
+
+
+    .signup-section {
+        height: 337px;
+        margin-top: -99px;
+    } */
+/* } */
