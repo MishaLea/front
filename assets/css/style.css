@@ -578,6 +578,17 @@ p {
     .top-row {
         height: 30px;
     }
+    
+    .homeBodyInfoContr {
+        height: 200%;
+        margin-bottom: 5px;
+        position: absolute;
+
+    }
+
+    #why-stay-section {
+        height: 200px;
+    }
 
     #why-stay-section h2 {
         font-size: 20px;
@@ -592,4 +603,27 @@ p {
         font-size: 10px;
         width: 100%;
     }
+
+    .column {
+        height: 350px;
+        position: fixed;
+        width: 50%;
+        display: none;
+    }
+
+    .s-m-links {
+        margin-top: 340px;
+        background-color: orange;
+        border-color: #344a72;
+        margin-right: 10px;
+    }
+
+   /*  footer {
+        width: 100%;
+        margin-top: 5%;
+        padding-top: 5px;
+        background-color: yellow;
+        border-top: red 2px solid;
+        position: absolute;
+    } */
 }
