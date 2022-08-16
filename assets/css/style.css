@@ -767,4 +767,10 @@ p {
     .bookings-bg {
         margin-left: 5px;
     }
+
+    /* sign up page for 730px max screen */
+
+    .signup-section {
+        height: 473px;
+    }
 }
