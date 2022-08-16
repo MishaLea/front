@@ -662,6 +662,7 @@ p {
         width: 71%;
         margin-left: 110px;
     }
+
     .booking-form {
         height: 690px;
     }
@@ -671,7 +672,7 @@ p {
     }
 
     /* Sign up Form */
-    
+
     .signup-section {
         height: 337px;
         margin-top: -99px;
@@ -720,6 +721,7 @@ p {
     #why-stay-section {
         height: 576px;
     }
+
     #why-stay-section h5 {
         font-size: 50%;
         margin-left: -145px;
@@ -729,5 +731,16 @@ p {
 
     .homeBodyInfoContr {
         height: 200px;
+    }
+
+    #why-stay-title {
+        margin-top: 1px;
+    }
+
+    .s-m-links {
+        width: 682px;
+        margin-left: -1px;
+        padding-right: 70px;
+        padding-left: 17px;
     }
 }
