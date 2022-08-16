@@ -743,4 +743,28 @@ p {
         padding-right: 70px;
         padding-left: 17px;
     }
+
+    /* bookings page on 730px screen size */
+
+    #beach-img {
+        height: 375px;
+    }
+
+    .bookings-section {
+        height: 478px;
+    }
+
+    #bookings-h2 {
+        font-size: 145%;
+    }
+
+    #bookings-h5 {
+        margin-left: 0;
+        margin-right: 0;
+        font-size: 95%;
+    }
+
+    .bookings-bg {
+        margin-left: 5px;
+    }
 }
