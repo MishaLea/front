@@ -669,4 +669,11 @@ p {
     .booking-form-text {
         padding-top: 1PX;
     }
+
+    /* Sign up Form */
+    
+    .signup-section {
+        height: 337px;
+        margin-top: -99px;
+    }
 }
