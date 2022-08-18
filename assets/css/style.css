@@ -64,6 +64,7 @@ form input {
     outline: none;
 }
 
+
 input[type="button"] {
     width: 320px;
     height: 35px;
@@ -352,6 +353,16 @@ p {
     height: 350px;
     width: 100%;
     background: url('../images/lounge.jpg');
+}
+
+
+/* Rooms Section */
+
+#rooms-section {
+    background-image: url(../images/beach-img-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 }
 
 /* Bookings page */
