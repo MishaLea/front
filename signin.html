@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+    <script src="signin.js"></script>
 </head>
 
 <body>
@@ -22,17 +23,15 @@
             <h2>Sign Up</h2>
             <h4>It's free and only takes a minute</h4>
             <form class = "form-2">
-                <label>First Name</label>
-                <input type="text" placeholder="">
-                <label>Last Name</label>
-                <input type="text" placeholder="">
+                <label>Name</label>
+                <input type="text" id="signin_name" placeholder="">
                 <label>Email</label>
-                <input type="email" placeholder="">
+                <input type="email" id="signin_email" placeholder="">
                 <label>Password</label>
-                <input type="password" placeholder="">
+                <input type="password" id="signin_password" placeholder="">
                 <label>Confirm Password</label>
                 <input type="password" placeholder="">
-                <input type="button" value="Submit">
+                <button type="button" value="Submit" onclick="signin_functions()">Sign In</button>
             </form>
             <p> By Clicking the Sign Up button, you agree to our <br>
                 <a href="#">Terms & Conditions</a> and <a href="#"> Privacy Policy</a>

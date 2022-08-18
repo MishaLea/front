@@ -10,6 +10,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital@1&display=swap" rel="stylesheet">
+    <script src="login.js"></script>
 </head>
 
 <body>
@@ -19,10 +20,10 @@
         <h3>Login</h3> <!-- Should be h1 but im having a problem with the font color on sign up form. -->
         <form class="form-2">
             <label>Email</label>
-            <input type="email" placeholder="">
+            <input type="email" id="loginEmailInput" placeholder="">
             <label>Password</label>
-            <input type="password" placeholder="">
-            <input type="button" value="Submit">
+            <input type="password" id="loginpasswordInput" placeholder="">
+            <button type="button" value="Submit" onclick="login_functions()">Submit</button>
         </form>
     </div>
     <p class="para-2">Don't have an account? <a href="signin.html">Sign Up here</a></p>
