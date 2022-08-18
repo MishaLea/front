@@ -245,6 +245,14 @@ p {
 
 }
 
+.footer-contact {
+    text-align: center;
+}
+
+.footer-login {
+    margin-top: 263px;
+}
+
 /* Main Image for Home screen */
 
 .top-row {
