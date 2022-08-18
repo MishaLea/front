@@ -22,8 +22,22 @@ h4 {
     text-align: center;
 }
 
+h5 {
+    font-size: clamp (5px, 2px + 20vw, 30px);
+}
+
 a {
     text-decoration: none;
+    color: ivory;
+}
+
+header,
+footer {
+    border: red 2px solid;
+}
+
+section {
+    border: greenyellow 2px solid;
 }
 
 
@@ -122,11 +136,12 @@ p {
 /* Logo & Nav Bar */
 
 #logo {
-    height: 100px;
+    font-size: clamp(2rem, 1rem + 5vw, 5rem);
+    /* height: 100px;
     letter-spacing: 8px;
     border-bottom: white solid 4px;
     font-size: 270%;
-    word-spacing: 20px;
+    word-spacing: 20px; */
 }
 
 .Navbar-logo {
@@ -134,14 +149,14 @@ p {
 }
 
 #menu {
-    font-size: 150%;
+    font-size: clamp (10px, 10px + 50vw, 100px);
 }
 
 #menu li {
     list-style-type: none;
     float: left;
-    margin-left: 300px;
-    padding-left: 30px;
+    /* margin-left: 300px; */
+    padding-left: 104px;
     text-align: center;
     /* color: ivory; */
 }
@@ -171,10 +186,9 @@ p {
     height: 30px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
-    /*  background-color: #10770C; */
-    /*     padding: 10px 30px;*/
+    justify-content: center;
     border-bottom: 100px;
+    align-content: center;
 }
 
 .navbarLinks {
@@ -193,8 +207,7 @@ p {
 
 
 .homeBodyInfoContr {
-    height: 100vh;
-    text-align: center;
+    font-size: clamp(1px, 5px + 30vw, 10px);
 }
 
 
@@ -276,7 +289,7 @@ p {
 }
 
 #why-stay-section h2 {
-    font-size: 200%;
+    font-size: clamp (3px, 3px + 20vw, 30px);
     text-align: center;
     text-transform: uppercase;
 
@@ -289,8 +302,8 @@ p {
     font-size: 120%;
     text-align: center;
 
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 12px;
+    padding-right: 12px;
 }
 
 /* Accommodation Pictures */
@@ -337,14 +350,14 @@ p {
 
 .bookings-section {
     height: 700px;
-    width: 100%;
+    min-width: none;
     margin-top: 50px;
     margin-bottom: 100px;
 }
 
 #beach-img {
     height: 500px;
-    width: 100%;
+    min-width: none;
     background: url('../images/beach2.webp')no-repeat center;
     object-fit: cover;
 }
@@ -352,31 +365,32 @@ p {
 #bookings-h2 {
     text-transform: uppercase;
     text-align: center;
-    font-size: 200%;
+    font-size: clamp (20px, 10px + 10vw, 30px);
 }
 
 #bookings-h5 {
+    font-size: clamp(10px, 5px + 10vw, 20px);
     text-align: center;
-    margin-left: 200px;
-    margin-right: 200px;
-    font-size: 130%;
-    margin-bottom: 50px;
-    background-color: rgba f8b944.7;
-    /* not sure how to add rgba for slight transparent look */
-
+    margin-left: 68px;
+    margin-right: 68px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-around;
+    justify-content: center;
 }
+
 
 /* Bookings page - lower */
 
 .bookings-bg {
     background-image: url('../images/background.jpeg');
     height: 700px;
-    max-width: 1280px;
+    max-width: 1120px;
     display: flex;
     justify-content: center;
     align-items: center;
     padding-left: 50px;
-    margin-left: 100px;
+    margin-left: 170px;
 
 }
 
@@ -527,8 +541,103 @@ p {
 /* The below media query will edit mobile screens */
 
 
+@media screen and (max-width: 1100px) {
+    .bookings-section {
+        width: 100%;
+        height: 824px;
+    }
 
+    .navbarClass {
+        height: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        border-bottom: 100px;
+        flex-wrap: wrap;
+        align-content: flex-end;
+        align-items: baseline;
+    }
+}
 
+@media screen and (max-width: 735px) {
+    .navbar-div {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 655px) {
+    .navbar-div {
+        width: 122%;
+    }
+
+    #beach-img {
+        width: 120%;
+    }
+
+    #bookings-h2 {
+        margin-right: -118px;
+    }
+
+    #bookings-h5 {
+        min-width: fit-content;
+        margin: 0 auto;
+    }
+
+    .bookings-section-2 {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    header {
+        width: 100%;
+    }
+
+    .navbarLinks {
+        display: flex;
+    }
+
+    #menu {
+        height: 0px;
+        padding-right: 90px;
+    }
+
+    .nav-item {
+        margin-left: -34px;
+    }
+
+    #logo {
+        margin-left: -72px;
+    }
+
+    #bookings-h2 {
+        font-size: smaller;
+        text-align: center;
+        float: left;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .bookings-bg {
+        margin-left: 1px;
+    }
+
+    form {
+        margin-left: -53px;
+    }
+
+    .form-2 {
+        margin-left: 5px;
+    }
+
+    .pool-2-image {
+        display: none;
+    }
+
+    .pool-image {
+        width: 208%;
+    }
+}
 
 
 
@@ -597,9 +706,9 @@ p {
         padding-left: 17px;
     } */
 
-    /* bookings page on 730px screen size */
+/* bookings page on 730px screen size */
 
-    /* #beach-img {
+/* #beach-img {
         height: 375px;
     }
 
@@ -621,22 +730,22 @@ p {
         margin-left: 5px;
     } */
 
-    /* sign up page for 730px max screen */
+/* sign up page for 730px max screen */
 
-    /* .signup-section {
+/* .signup-section {
         height: 473px;
     }
 } */
 
 /* @media screen and (max-width: 375px) { */
-    
-    
-    /* header {
+
+
+/* header {
         height: 90px;
         margin-top: 20px;
     } */
 
-   /*  #logo {
+/*  #logo {
         height: 48px;
         border-bottom: none;
         font-size: 168%;
@@ -646,7 +755,7 @@ p {
 
     } */
 
- /*    #menu {
+/*    #menu {
         min-height: 70px;
         font-size: 60%;
         margin: 0;
