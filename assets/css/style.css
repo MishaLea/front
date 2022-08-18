@@ -359,10 +359,29 @@ p {
 /* Rooms Section */
 
 #rooms-section {
-    background-image: url(../images/beach-img-2.jpg);
+    background-image: url(../images/beach-image-2.jpeg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+    max-width: 100%;
+    overflow: hidden;
+}
+
+#rooms-section div {
+    color: ivory;
+    background-color: rgba(0, 0, 0, 0.3);
+    width: 33.3%;
+    max-height: 400px;
+    float: left;
+    padding: 42px 0px 0px 1px;
+    text-align: center;
+    border: 2px solid ivory;
+    box-sizing: border-box;
+}
+
+#rooms-section button {
+    background-color: #344a72;
+    color: ivory;
 }
 
 /* Bookings page */
