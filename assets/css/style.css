@@ -208,7 +208,7 @@ p {
 
 
 .homeBodyInfoContr {
-    font-size: clamp(1px, 5px + 30vw, 10px);
+    font-size: clamp(17px, 5px + 30vw, 10px);
 }
 
 
@@ -365,6 +365,7 @@ p {
     background-position: center;
     max-width: 100%;
     overflow: hidden;
+    margin-top: 62px;
 }
 
 #rooms-section div {
@@ -377,13 +378,17 @@ p {
     text-align: center;
     border: 2px solid ivory;
     box-sizing: border-box;
+    text-transform: uppercase;
 }
 
-#rooms-section button {
+#rooms-section label {
     background-color: #344a72;
     color: ivory;
 }
 
+#rooms-section a {
+    font-size: xx-large;
+}
 /* Bookings page */
 
 .bookings-section {
@@ -646,6 +651,10 @@ p {
 
     #logo {
         margin-left: -72px;
+    }
+
+    #rooms-section {
+        margin-top: 92px;
     }
 
     #bookings-h2 {
